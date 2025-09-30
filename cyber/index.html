@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WhiteBugSecurity — Real Threats. Real Tests.</title>
+  <meta name="description" content="Penetration testing, red teaming, and social engineering by elite security professionals." />
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Header / Nav (Bootstrap Navbar) -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <span class="brand-mark">🛡️</span>
+          <span class="brand-text">WhiteBugSecurity</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="primaryNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Security Services
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item" href="#services">Penetration Testing</a></li>
+                <li><a class="dropdown-item" href="#services">Red Teaming</a></li>
+                <li><a class="dropdown-item" href="#services">Social Engineering</a></li>
+                <li><a class="dropdown-item" href="#services">Vulnerability Assessment</a></li>
+                <li><a class="dropdown-item" href="#training">Security Awareness</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+            <li class="nav-item ms-lg-2">
+              <a class="btn btn-outline-info btn-sm" href="contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-media"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="row">
+        <div class="col-lg-10 col-xl-8">
+          <h1 class="mb-3">Real Threats. Real Tests. WhiteBugSecurity Team™</h1>
+          <p class="mb-4">Test. Harden. Train. Offense is the best defense—proved through elite, adversarial simulation.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#contact" class="btn btn-primary">Uncover Your Vulnerabilities</a>
+            <a href="#services" class="btn btn-outline-info">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Credibility band -->
+  <section class="band band-cred py-4">
+    <div class="container">
+      <div class="row align-items-center g-3">
+        <div class="col-lg-8">
+          <h3 class="mb-1">100% success across multi-vector social engineering engagements</h3>
+          <p class="mb-0">Enterprise-tested methodologies mapped to MITRE ATT&CK and NIST guidance.</p>
+        </div>
+        <div class="col-lg-4">
+          <div class="d-flex justify-content-lg-end align-items-center gap-3 badges">
+            <div class="badge-placeholder">ISO 27001</div>
+            <div class="badge-placeholder">NIST</div>
+            <div class="badge-placeholder">OWASP</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Featured Security Services</h2>
+        <p>Plan a customized attack, execute the hack, and receive prioritized remediation guidance.</p>
+      </header>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="h4">Ultimate Penetration Testing</h3>
+              <p>Comprehensive, manual-first testing of web, mobile, external, and internal estates.</p>
+              <ul class="tick mb-3">
+                <li>Manual exploit chains</li>
+                <li>Risk-ranked evidence</li>
+                <li>Fix-by-fix guidance</li>
+              </ul>
+              <a href="#contact" class="card-cta">Start a Scope →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="h4">Red Team Operations</h3>
+              <p>Full-scope adversary simulation to stress blue team detection and response.</p>
+              <ul class="tick mb-3">
+                <li>Initial access to impact</li>
+                <li>Detection engineering notes</li>
+                <li>Executive and TTP reports</li>
+              </ul>
+              <a href="#contact" class="card-cta">Request an Exercise →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="h4">Security Awareness Training</h3>
+              <p>Behavior-focused training and phishing simulations that measurably reduce risk.</p>
+              <ul class="tick mb-3">
+                <li>Role-based modules</li>
+                <li>Live demos, Q&A</li>
+                <li>Metrics and outcomes</li>
+              </ul>
+              <a href="#training" class="card-cta">View Curriculum →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="h4">Social Engineering Testing</h3>
+              <p>Multi-channel pretexting: email, voice, onsite, and physical access attempts.</p>
+              <ul class="tick mb-3">
+                <li>Human risk insights</li>
+                <li>Playbooks to harden</li>
+                <li>Leadership briefings</li>
+              </ul>
+              <a href="#contact" class="card-cta">Run a Campaign →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="h4">Vulnerability Assessment</h3>
+              <p>Wide coverage scanning plus manual validation and triage to remove noise.</p>
+              <ul class="tick mb-3">
+                <li>Asset-based reports</li>
+                <li>Patch roadmaps</li>
+                <li>KPIs over time</li>
+              </ul>
+              <a href="#contact" class="card-cta">Get a Baseline →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section-split">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <h2>The WhiteBugSecurity Team™</h2>
+          <p>Elite consultants with decades of offensive security experience across critical sectors. Our methodology blends red team tradecraft, engineering rigor, and executive-ready communication.</p>
+          <ul class="tick mb-4">
+            <li>Adversary emulation and purple teaming</li>
+            <li>Threat-informed defense recommendations</li>
+            <li>Clear remediation with owner/action/due-date</li>
+          </ul>
+          <a class="btn btn-primary" href="#contact">Talk to an Expert</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="team-placeholder">
+            <div class="placeholder-content">
+              <h4>🛡️ Security Team</h4>
+              <p>Elite consultants ready to test your defenses</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section id="resources" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Resources</h2>
+        <p>Guides, checklists, and briefs to strengthen posture.</p>
+      </header>
+
+      <div class="row g-3">
+        <div class="col-md-4">
+          <a class="resource d-block h-100 p-3" href="#">
+            <h4 class="h5">PenTest Readiness Checklist</h4>
+            <p class="mb-0">Scope, rules of engagement, data handling.</p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="resource d-block h-100 p-3" href="#">
+            <h4 class="h5">Red Team vs. Pen Test</h4>
+            <p class="mb-0">When to choose each and how to combine.</p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="resource d-block h-100 p-3" href="#">
+            <h4 class="h5">Social Engineering Playbook</h4>
+            <p class="mb-0">Empower staff against real-world pretexts.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA band -->
+  <section class="band band-cta py-4">
+    <div class="container">
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center gap-3">
+        <div>
+          <h3 class="mb-1">Ready to see what an attacker can do—before they do?</h3>
+          <p class="mb-0">Get a tailored proposal in 2 business days.</p>
+        </div>
+        <a href="#contact" class="btn btn-light">Get a Proposal</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Contact Us</h2>
+        <p>Share scope, timelines, and constraints. We'll respond quickly.</p>
+      </header>
+
+      <form class="contact-form" action="mailto:hello@example.com" method="post" enctype="text/plain">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Full Name
+              <input class="form-control mt-1" type="text" name="name" required />
+            </label>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Work Email
+              <input class="form-control mt-1" type="email" name="email" required />
+            </label>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Company
+              <input class="form-control mt-1" type="text" name="company" />
+            </label>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Phone
+              <input class="form-control mt-1" type="tel" name="phone" />
+            </label>
+          </div>
+          <div class="col-12">
+            <label class="form-label">How can we help?
+              <textarea class="form-control mt-1" name="message" rows="6" required></textarea>
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-primary mt-3" type="submit">Send</button>
+        <p class="form-note">Prefer a form handler? Use Netlify Forms, Formspree, or a simple serverless endpoint.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer py-4">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand brand-footer d-flex align-items-center gap-2 mb-2">
+            <span class="brand-mark">🛡️</span><span class="brand-text">WhiteBugSecurity</span>
+          </div>
+          <p class="small mb-0">© 2025 WhiteBugSecurity. All rights reserved.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1"><a href="#services">Services</a></li>
+            <li class="mb-1"><a href="#resources">Resources</a></li>
+            <li class="mb-1"><a href="#about">About</a></li>
+          </ul>
+        </nav>
+        <div class="foot-legal small">
+          <a href="#" class="me-2">Privacy</a> · <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (Popper included) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Your JS (optional for extras) -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
+
